@@ -1,0 +1,42 @@
+// ---------- Reset
+
+html,body,h1,h2,h3,p,ul,ol,li,img,figure,form,
+fieldset,header,nav,section,article,aside,footer {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+html, body {
+
+	width: 100%;
+	position: relative;
+
+}
+
+html {
+
+	-webkit-text-size-adjust: none;
+
+}
+
+article, aside, footer, header, nav, section{
+
+	display: block;
+	position: relative;
+
+}
+
+img {
+
+	border: none;
+	display: block;
+
+}
+
+a {
+
+	cursor: pointer;
+
+}

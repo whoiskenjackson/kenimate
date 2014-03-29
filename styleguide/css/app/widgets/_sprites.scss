@@ -1,0 +1,28 @@
+@mixin sprite($width, $height, $left: 0, $top: 0, $leftHover: 0, $topHover: 0) {
+	
+	width: $width;
+	height: $height;
+	background: url(/wp-content/themes/fit/images/sprites.png) $left $top no-repeat;
+	
+	&:hover{
+	
+		background-position: $leftHover $topHover;
+	
+	}
+
+}
+
+// Top Logo
+//%sprite-logo {
+//	@include sprite(187px, 103px);
+//}
+
+// HR with Logo
+//%sprite-hr-logo {
+//	@include sprite(40px, 40px, 0, -135px, 0, -135px);
+//}
+
+//Twitter Icon
+//%sprite-social-tw {
+//	@include sprite(21px, 20px, -28px, -110px, -28px, -110px);
+//}

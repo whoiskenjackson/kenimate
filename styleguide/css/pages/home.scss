@@ -58,3 +58,53 @@
     }
 
 }
+
+.intro {
+
+    width: 70%;
+    padding: 200px 0 100px;
+    margin: 0 auto;
+
+    h3 {
+
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 75px;
+        color: $blue-01;
+        font-family: $helvetica;
+        text-transform: uppercase;
+        margin: 0 0 50px;
+
+    }
+
+    h4 {
+
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-family: $helvetica;
+        margin: 100px 0 0;
+
+        a {
+
+            color: $blue-01;
+            text-decoration: none;
+
+        }
+
+    }
+
+    p {
+
+        display: block;
+        font-family: $georgia;
+        font-size: 25px;
+        line-height: 40px;
+        color: $gray-01;
+        text-align: center;
+
+    }
+
+}

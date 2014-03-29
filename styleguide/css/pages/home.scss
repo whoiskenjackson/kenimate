@@ -1,0 +1,60 @@
+@import "styleguide/css/app/base/core";
+@import "styleguide/css/app/layout/wrapper";
+
+.banner {
+
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    background: $blue-01;
+
+    h1,
+    h2,
+    .copy {
+
+        display: block;
+
+    }
+
+    .copy {
+
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        color: $white-01;
+
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+    }
+
+    h1,
+    h2 {
+
+        text-align: center;
+
+    }
+
+    h1 {
+
+        
+        font-family: $helvetica;
+        font-size: 100px;
+        text-transform: uppercase;
+        margin:0 0 20px;
+
+    }
+
+    h2 {
+
+        font-weight: normal;
+        font-family: $georgia;
+        font-size: 15px;
+        text-transform: uppercase;
+
+    }
+
+}

@@ -62,7 +62,7 @@
 .intro {
 
     width: 70%;
-    padding: 200px 0 100px;
+    padding: 200px 0 200px;
     margin: 0 auto;
 
     h3 {
@@ -103,6 +103,24 @@
         font-size: 25px;
         line-height: 40px;
         color: $gray-01;
+        text-align: center;
+
+    }
+
+}
+
+.basics {
+
+    width: 100%;
+    padding: 200px 0;
+    background: #eee;
+
+    h3 {
+
+        display: block;
+        color: $gray-01;
+        font-family: $helvetica;
+        font-size: 75px;
         text-align: center;
 
     }

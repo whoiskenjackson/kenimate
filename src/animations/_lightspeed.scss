@@ -18,77 +18,81 @@
 
 /*--- Light Speed In ---*/
 
-@-webkit-keyframes lightSpeedIn {
+@mixin lightSpeedIn-keyframes {
 
-	0% {
+	@-webkit-keyframes lightSpeedIn {
 
-		-webkit-transform: translateX(100%) skewX(-30deg);
-		transform: translateX(100%) skewX(-30deg);
-		opacity: 0;
+		0% {
 
-	}
+			-webkit-transform: translateX(100%) skewX(-30deg);
+			transform: translateX(100%) skewX(-30deg);
+			opacity: 0;
 
-	60% {
+		}
 
-		-webkit-transform: translateX(-20%) skewX(30deg);
-		transform: translateX(-20%) skewX(30deg);
-		opacity: 1;
+		60% {
 
-	}
+			-webkit-transform: translateX(-20%) skewX(30deg);
+			transform: translateX(-20%) skewX(30deg);
+			opacity: 1;
 
-	80% {
+		}
 
-		-webkit-transform: translateX(0%) skewX(-15deg);
-		transform: translateX(0%) skewX(-15deg);
-		opacity: 1;
+		80% {
 
-	}
+			-webkit-transform: translateX(0%) skewX(-15deg);
+			transform: translateX(0%) skewX(-15deg);
+			opacity: 1;
 
-	100% {
+		}
 
-		-webkit-transform: translateX(0%) skewX(0deg);
-		transform: translateX(0%) skewX(0deg);
-		opacity: 1;
+		100% {
 
-	}
+			-webkit-transform: translateX(0%) skewX(0deg);
+			transform: translateX(0%) skewX(0deg);
+			opacity: 1;
 
-}
-
-@keyframes lightSpeedIn {
-
-	0% {
-
-		-webkit-transform: translateX(100%) skewX(-30deg);
-		-ms-transform: translateX(100%) skewX(-30deg);
-		transform: translateX(100%) skewX(-30deg);
-		opacity: 0;
+		}
 
 	}
 
-	60% {
+	@keyframes lightSpeedIn {
 
-		-webkit-transform: translateX(-20%) skewX(30deg);
-		-ms-transform: translateX(-20%) skewX(30deg);
-		transform: translateX(-20%) skewX(30deg);
-		opacity: 1;
+		0% {
 
-	}
+			-webkit-transform: translateX(100%) skewX(-30deg);
+			-ms-transform: translateX(100%) skewX(-30deg);
+			transform: translateX(100%) skewX(-30deg);
+			opacity: 0;
 
-	80% {
+		}
 
-		-webkit-transform: translateX(0%) skewX(-15deg);
-		-ms-transform: translateX(0%) skewX(-15deg);
-		transform: translateX(0%) skewX(-15deg);
-		opacity: 1;
+		60% {
 
-	}
+			-webkit-transform: translateX(-20%) skewX(30deg);
+			-ms-transform: translateX(-20%) skewX(30deg);
+			transform: translateX(-20%) skewX(30deg);
+			opacity: 1;
 
-	100% {
+		}
 
-		-webkit-transform: translateX(0%) skewX(0deg);
-		-ms-transform: translateX(0%) skewX(0deg);
-		transform: translateX(0%) skewX(0deg);
-		opacity: 1;
+		80% {
+
+			-webkit-transform: translateX(0%) skewX(-15deg);
+			-ms-transform: translateX(0%) skewX(-15deg);
+			transform: translateX(0%) skewX(-15deg);
+			opacity: 1;
+
+		}
+
+		100% {
+
+			-webkit-transform: translateX(0%) skewX(0deg);
+			-ms-transform: translateX(0%) skewX(0deg);
+			transform: translateX(0%) skewX(0deg);
+			opacity: 1;
+
+		}
 
 	}
 
@@ -96,43 +100,47 @@
 
 /*--- Light Speed Out ---*/
 
-@-webkit-keyframes lightSpeedOut {
+@mixin lightSpeedOut-keyframes {
 
-	0% {
+	@-webkit-keyframes lightSpeedOut {
 
-		-webkit-transform: translateX(0%) skewX(0deg);
-		transform: translateX(0%) skewX(0deg);
-		opacity: 1;
+		0% {
 
-	}
+			-webkit-transform: translateX(0%) skewX(0deg);
+			transform: translateX(0%) skewX(0deg);
+			opacity: 1;
 
-	100% {
+		}
 
-		-webkit-transform: translateX(100%) skewX(-30deg);
-		transform: translateX(100%) skewX(-30deg);
-		opacity: 0;
+		100% {
 
-	}
+			-webkit-transform: translateX(100%) skewX(-30deg);
+			transform: translateX(100%) skewX(-30deg);
+			opacity: 0;
 
-}
-
-@keyframes lightSpeedOut {
-
-	0% {
-
-		-webkit-transform: translateX(0%) skewX(0deg);
-		-ms-transform: translateX(0%) skewX(0deg);
-		transform: translateX(0%) skewX(0deg);
-		opacity: 1;
+		}
 
 	}
 
-	100% {
+	@keyframes lightSpeedOut {
 
-		-webkit-transform: translateX(100%) skewX(-30deg);
-		-ms-transform: translateX(100%) skewX(-30deg);
-		transform: translateX(100%) skewX(-30deg);
-		opacity: 0;
+		0% {
+
+			-webkit-transform: translateX(0%) skewX(0deg);
+			-ms-transform: translateX(0%) skewX(0deg);
+			transform: translateX(0%) skewX(0deg);
+			opacity: 1;
+
+		}
+
+		100% {
+
+			-webkit-transform: translateX(100%) skewX(-30deg);
+			-ms-transform: translateX(100%) skewX(-30deg);
+			transform: translateX(100%) skewX(-30deg);
+			opacity: 0;
+
+		}
 
 	}
 

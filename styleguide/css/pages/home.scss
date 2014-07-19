@@ -71,7 +71,7 @@
         width: 100%;
         text-align: center;
         font-size: 75px;
-        color: $blue-01;
+        color: $gray-01;
         font-family: $helvetica;
         text-transform: uppercase;
         margin: 0 0 50px;
@@ -122,6 +122,33 @@
         font-family: $helvetica;
         font-size: 75px;
         text-align: center;
+        margin: 0 0 50px;
+
+    }
+
+    ol {
+
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        color: $blue-01;
+        line-height: 70px;
+        font-family: $georgia;
+
+    }
+
+    li{
+
+        padding: 10px 0;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+    a {
+
+        display: block;
 
     }
 

@@ -66,14 +66,9 @@
 Or you could condense it down to:
 
 ```
-.animated {
-	
-	@extend %animated;
-
-}
-
 .fadeIn {
 
+	@extend %animated;
 	@extend %fadeIn;
 
 }

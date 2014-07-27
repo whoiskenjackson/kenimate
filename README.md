@@ -2,7 +2,11 @@
 
 SCSS Toolkit for quickly adding CSS Animations to projects. It's extending danedan's Animate CSS, and in the future will be adding other animations to the mix.
 
-##Animate CSS Example
+##Examples
+
+Below are examples of both Animate CSS and kenimate. The goal was to make adding animations quick and painless.
+
+###Animate CSS
 
 ```
 
@@ -49,7 +53,7 @@ SCSS Toolkit for quickly adding CSS Animations to projects. It's extending daned
 }
 ```
 
-##kenimate SCSS Example
+###kenimate Example
 
 ```
 .animated {

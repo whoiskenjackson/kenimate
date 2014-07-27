@@ -1,3 +1,7 @@
+#kenimate
+
+SCSS Toolkit for quickly adding CSS Animations to projects. It's extending danedan's Animate CSS, and in the future will be adding other animations to the mix.
+
 ##Animate CSS Example
 
 ```
@@ -60,7 +64,7 @@
 
 }
 
-@include flip-keyframes;
+@include fadeIn-keyframes;
 ```
 
 Or you could condense it down to:
@@ -73,5 +77,5 @@ Or you could condense it down to:
 
 }
 
-@include flip-keyframes;
+@include fadeIn-keyframes;
 ```
